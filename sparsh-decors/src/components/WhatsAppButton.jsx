@@ -43,11 +43,14 @@ const whatsappStyles = `
   }
 `;
 
-export default function WhatsAppButton({ phoneNumber = "91XXXXXXXXXX" }) {
+export default function WhatsAppButton({ phoneNumber = "919810917464" }) {
   const message = encodeURIComponent(
     "Hello Sparsh Decors! I'm interested in your services. Can you please share more details?"
   );
-  const url = `https://wa.me/${phoneNumber}?text=${message}`;
+
+  // wa.me works WITHOUT saving the number — opens WhatsApp directly
+  // Works on mobile (app) AND desktop (WhatsApp Web) automatically
+  const url = `https://api.whatsapp.com/send?phone="919810917464"&text=${message}`;
 
   return (
     <>

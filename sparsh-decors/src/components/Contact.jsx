@@ -73,9 +73,9 @@ export default function Contact() {
 *Service Required:* ${form.service || "Not specified"}
 *Message:* ${form.message || "No message"}
 
-_Sent from sparshd ecors.com_`;
+Please share more details and the next steps. Thank you!`;
 
-    const waURL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(waMessage)}`;
+    const waURL = `https://api.whatsapp.com/send?phone="919810917464"&text=${encodeURIComponent(waMessage)}`;
 
     // Open WhatsApp in new tab
     window.open(waURL, "_blank");

@@ -119,14 +119,6 @@ const testimonials = [
     stars: 5,
   },
   {
-    text: "We hired Sparsh Decors for our entire office interior. From planning to execution, everything was seamless. The quality is top-notch and pricing is very reasonable.",
-    name: "Priya Mehta",
-    role: "Business Owner · Rohini, Delhi",
-    emoji: "👩",
-    tag: "Office Interior",
-    stars: 5,
-  },
-  {
     text: "Had a severe water leakage problem for years. Their waterproofing solution completely fixed it. It's been 2 years and not a single drop. Highly recommended!",
     name: "Anil Kumar",
     role: "Resident · Janakpuri, Delhi",
@@ -136,8 +128,8 @@ const testimonials = [
   },
   {
     text: "The exterior work they did for our building is breathtaking. Modern texture finish with perfect color combination. The whole society is impressed!",
-    name: "Sunita Verma",
-    role: "Society President · Noida",
+    name: "RK Jain",
+    role: "Construction Builder  · Baghpat",
     emoji: "👩‍💼",
     tag: "Exterior Design",
     stars: 5,
