@@ -13,7 +13,7 @@ import BeforeAfter from "./components/BeforeAfter";
 import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import WhatsAppButton from "./components/WhatsAppButton";
+//import WhatsAppButton from "./components/WhatsAppButton";
 import ProjectsPage from "./components/ProjectsPage";
 
 export default function App() {
@@ -71,7 +71,7 @@ export default function App() {
       )}
 
       {/* Replace 91XXXXXXXXXX with your actual WhatsApp number e.g. 919876543210 */}
-      <WhatsAppButton phoneNumber="91XXXXXXXXXX" />
+      {/* <WhatsAppButton phoneNumber="91XXXXXXXXXX" /> */}
     </>
   );
 }
