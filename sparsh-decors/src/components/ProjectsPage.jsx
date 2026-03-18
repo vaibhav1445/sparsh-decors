@@ -468,7 +468,7 @@ const videos = [
     meta: "Noida, 2024",
     tag: "Exterior",
     duration: "1:48",
-    src: "",                       // ← add video path when ready
+    src: "/images/vido2.mp4",                       // ← add video path when ready
     thumb: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=600&q=80",
   },
   {
